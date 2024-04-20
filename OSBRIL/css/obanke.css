@@ -1,0 +1,126 @@
+.posit {
+  width: 100vw;
+  height: 100vh;
+}
+
+.position-block {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.real {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.real-conteiner {
+  max-width: 500px;
+}
+
+.real-conteiner__heading {
+  font-size: 38px;
+}
+
+.real-conteiner__description {
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+.real-image {
+  display: flex;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+}
+
+.misia-conteiner__heading {
+  font-size: 38px;
+}
+
+.misia-conteiner__description {
+  font-size: 18px;
+}
+
+.misia-btn {
+  background-color: transparent;
+  padding: 5px 25px;
+  margin-top: 20px;
+  min-width: 15%;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.misia-btn:hover {
+  background-color: #000000;
+  border: 1px solid black;
+  color: #ffffff;
+  transition: all ease .9s;
+}
+
+.history {
+  width: 100vw;
+  min-height: 20vh;
+  background-color: #3183B3;
+}
+
+.history-conteiner {
+  padding-top: 40px;
+}
+
+.brend {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.brend-conteiner {
+  max-width: 700px;
+}
+
+.brend-conteiner__heading {
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.brend-conteiner__description {
+  font-size: 1.3em;
+  color: #ffffff;
+  line-height: 1.5em;
+  padding-bottom: 30px;
+}
+
+.brend-btn {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.brend-img {
+  width: 30%;
+  transition: 1s;
+  overflow: hidden;
+}
+
+.brend-img:hover {
+  transform: scale(1.1);
+}
+
+.istorya {
+  margin-top: 60px;
+  min-height: 20vh;
+}
+
+.istorya-conteiner__heading {
+  font-size: 38px;
+}
+
+.istorya-conteiner__description {
+  font-size: 18px;
+}

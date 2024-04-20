@@ -1,0 +1,100 @@
+.information {
+    margin-top: 160px;
+    width: 100%;
+    min-height: 269px;
+    padding-bottom: 30px;
+    background: #9C0FCE;
+}
+
+.informations {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.informations-info {
+    max-width: 700px;
+    padding-top: 50px;
+}
+
+.informations-info__heading {
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.information-info__description {
+    padding-top: 60px;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.info__btn {
+    margin-top: 100px;
+    padding: 18px 36px;
+    background-color: #151515;
+    font-size: 18px;
+    color: #ffffffff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    border: 2px solid black;
+}
+
+.info__btn:hover {
+    background-color: transparent;
+    border: 2px solid black;
+    color: #151515;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.informations-img{
+    width: 90%;
+    transition: all .5s ease-in-out;
+}
+
+.informations-img:hover{
+    transform: scale(1.1);
+    /* transition: all .5s ease-in-out; */
+}
+
+.documentation{
+    margin-top: 100px;
+}
+
+.pensia{
+    display: flex;
+    align-items: center;
+}
+
+.pensia-content{
+    max-width: 100%;
+}
+
+.pensia-img{
+    width: 20%;
+    margin-right: 60px;
+}
+
+
+.pensia-content__heading{
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.pensia-content__title{
+    font-size: 29px;
+    padding-top: 30px;
+}

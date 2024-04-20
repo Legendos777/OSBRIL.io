@@ -1,0 +1,560 @@
+@media (max-width: 1024px) {
+  .conteiner {
+    max-width: 1024px;
+    padding: 0 20px;
+  }
+
+  .swiper {
+    width: 100%;
+    margin-top: 126px;
+    min-height: 200px;
+  }
+
+  .slider-conteiner {
+    display: flex;
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .slide-block {
+    max-width: 500px;
+  }
+
+  .slider-conteiner img {
+    width: 30%;
+  }
+
+  .slider-conteiner {
+    padding-top: 24px;
+  }
+
+  .slide-block__title {
+    font-size: 38px;
+    font-weight: 400;
+    padding-bottom: 2px;
+    color: #fff;
+  }
+
+  .slide-block__description {
+    color: #fff;
+    font-weight: 400;
+    font-size: 22px;
+  }
+
+  .offer-spisok {
+    width: 70%;
+  }
+
+  .card {
+    width: 100%;
+    display: grid;
+  }
+
+  .cards {
+    display: flex;
+    max-width: 490px;
+    background: #bba4ff;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    padding-left: 30px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.9s ease-in-out;
+    -moz-transition: all 0.9s ease-in-out;
+    -ms-transition: all 0.9s ease-in-out;
+    -o-transition: all 0.9s ease-in-out;
+    transition: all 0.9s ease-in-out;
+  }
+
+  .list-black {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .mobilbank-conteiner__list {
+    /* margin-left: 20px; */
+  }
+
+  .mobilbank-conteiner {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .mobilbank-img {
+    width: 40%;
+  }
+
+  .topicals {
+    display: inline-block;
+    width: 490px;
+    margin-right: 10px;
+  }
+
+  .brend-conteiner {
+    max-width: 500px;
+  }
+
+  .brend {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 896px) {
+  .conteiner {
+    max-width: 768px;
+    padding: 0 15px;
+  }
+
+  .menus-btn {
+    display: none;
+  }
+
+  .heading {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+
+  .logo {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  .swiper {
+    width: 100%;
+    margin-top: 126px;
+    min-height: 200px;
+    height: 250px;
+  }
+
+  .slider-conteiner {
+    display: flex;
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .slide-block {
+    max-width: 400px;
+  }
+
+  .slider-conteiner img {
+    width: 30%;
+  }
+
+  .slider-conteiner {
+    padding-top: 20px;
+  }
+
+  .slide-block__title {
+    font-size: 28px;
+    font-weight: 400;
+    padding-bottom: 2px;
+    color: #fff;
+  }
+
+  .slide-block__description {
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .offer-spisok {
+    width: 90%;
+  }
+
+  .card {
+    width: 100%;
+    display: grid;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    background: #bba4ff;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-left: 30px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.9s ease-in-out;
+    -moz-transition: all 0.9s ease-in-out;
+    -ms-transition: all 0.9s ease-in-out;
+    -o-transition: all 0.9s ease-in-out;
+    transition: all 0.9s ease-in-out;
+  }
+
+  .card-block__image {
+    display: block;
+    width: 80%;
+    height: 150px;
+    margin: 0px auto;
+    padding-right: 10px;
+  }
+
+  .card-block {
+    max-width: 400px;
+  }
+
+  .list-black {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .mobilbank-conteiner__list {
+    /* margin-left: 20px; */
+  }
+
+  .mobilbank-conteiner {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .mobilbank-img {
+    width: 40%;
+  }
+
+  .topicals {
+    display: inline-block;
+    width: 350px;
+    margin-right: 10px;
+  }
+
+  .brend-conteiner {
+    max-width: 415px;
+  }
+
+  .brend-img {
+    width: 100%;
+    transition: 1s;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 700px) {
+  .conteiner {
+    max-width: 700px;
+    padding: 0 10px;
+  }
+
+  .menus-btn {
+    display: none;
+  }
+
+  .heading {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+
+  .logo {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  .swiper {
+    width: 100%;
+    margin-top: 126px;
+    min-height: 200px;
+    height: 250px;
+  }
+
+  .slider-conteiner {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .slide-block {
+    max-width: 400px;
+  }
+
+  .slider-conteiner img {
+    width: 40%;
+  }
+
+  .slider-conteiner {
+    padding-top: 20px;
+    padding: 30px;
+  }
+
+  .slide-block__title {
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 2px;
+    color: #fff;
+  }
+
+  .slide-block__description {
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .offer-spisok {
+    width: 100%;
+  }
+
+  .spisok-link {
+    margin-right: 4px;
+  }
+
+  .card {
+    width: 100%;
+    display: grid;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    background: #bba4ff;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-left: 30px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.9s ease-in-out;
+    -moz-transition: all 0.9s ease-in-out;
+    -ms-transition: all 0.9s ease-in-out;
+    -o-transition: all 0.9s ease-in-out;
+    transition: all 0.9s ease-in-out;
+  }
+
+  .card-block__image {
+    display: none;
+  }
+
+  .card-block {
+    max-width: 400px;
+  }
+
+  .list-black {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .mobilbank-conteiner__list {
+    /* margin-left: 20px; */
+  }
+
+  .mobilbank-conteiner {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .mobilbank-img {
+    width: 40%;
+  }
+
+  .topicals {
+    display: inline-block;
+    width: 300px;
+    padding-right: 5px;
+    margin-right: 10px;
+  }
+
+  .brend-img {
+    width: 114%;
+    height: 300px;
+  }
+
+  .brend {
+    align-items: center;
+  }
+}
+
+@media (max-width: 540px) {
+  .conteiner {
+    max-width: 530px;
+    padding: 0 10px;
+  }
+
+  .heading {
+    display: none;
+  }
+
+  .menus-btn {
+    display: flex;
+  }
+
+  .menus {
+    z-index: 2;
+  }
+
+  .swiper {
+    display: none;
+  }
+
+  .offer-heading {
+    margin: 0;
+  }
+
+  .offer-spisok {
+    max-width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .spisok-link {
+    margin-right: 40px;
+  }
+
+  .card {
+    width: 100%;
+    /* margin: 0 auto; */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+
+  .cards {
+    /* display: none; */
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    background: #bba4ff;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    /* padding-left: 30px; */
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.9s ease-in-out;
+    -moz-transition: all 0.9s ease-in-out;
+    -ms-transition: all 0.9s ease-in-out;
+    -o-transition: all 0.9s ease-in-out;
+    transition: all 0.9s ease-in-out;
+  }
+
+  .card-block__image {
+    display: none;
+  }
+
+  .card-block {
+    max-width: 400px;
+  }
+
+  .list-black {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .mobilbank-conteiner__list {
+    /* margin-left: 20px; */
+  }
+
+  .mobilbank-conteiner {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .mobilbank-img {
+    width: 40%;
+  }
+
+  .topicals {
+    display: lock;
+    width: 100%;
+    padding-right: 5px;
+    margin-right: 10px;
+  }
+
+  .information {
+    margin-top: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 30px;
+    background: #9c0fce;
+  }
+
+  .informations-img {
+    display: contents;
+  }
+
+  .pensia-content__heading {
+    font-size: 38px;
+  }
+
+  .pensia-content__title {
+    font-size: 22px;
+    padding-top: 10px;
+  }
+
+  .mobilbank-conteiner__list {
+    margin-left: 30px;
+  }
+
+  .pensia-img {
+    display: none;
+  }
+
+  .real {
+    display: block;
+  }
+  
+  .real-image {
+    display: none;
+  }
+
+  .position-block {
+    height: 100vh;
+    justify-content: first baseline;
+  }
+
+  .brend {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 30px;
+  }
+
+  .brend-img {
+    display: contents;
+    width: 114%;
+    height: 300px;
+  }
+}
